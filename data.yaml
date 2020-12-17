@@ -59,7 +59,7 @@ spec:
         app: api
     spec:
       containers:
-      - image: eon01/quotes-data:v1
+      - image: karanwalia/quotes-data:v1
         name: mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
